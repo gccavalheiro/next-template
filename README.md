@@ -48,7 +48,7 @@
 
 ## :white_check_mark: Prerequisite
 
-:checkered_flag: Before starting, you need to have the
+:exclamation: Before starting, you need to have the
 [Node] (https://nodejs.org) installed on your machine.
 
 ## :checkered_flag: Getting Started
