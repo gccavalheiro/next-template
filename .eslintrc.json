@@ -1,3 +1,36 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "prefer-const": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-inner-declarations": "off",
+    "jsx-quotes": 1,
+    "linebreak-style": [2, "unix"],
+    "quotes": [2, "single"],
+    "react/display-name": 0,
+    "react/forbid-prop-types": 0,
+    "react/sort-prop-types": 1,
+    "react/jsx-boolean-value": 1,
+    "react/jsx-first-prop-new-line": [2, "multiline"],
+    "react/jsx-closing-bracket-location": [2, "tag-aligned"],
+    "react/jsx-curly-spacing": 1,
+    "react/jsx-indent-props": [2, 2],
+    "react/jsx-no-duplicate-props": 1,
+    "react/jsx-no-literals": 0,
+    "react/jsx-max-props-per-line": [2, { "maximum": 1, "when": "multiline" }]
+  }
 }

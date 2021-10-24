@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Next Template</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="Badge mostrando a principal linguagem do projeto" src="https://img.shields.io/github/languages/top/maurodesouza/next-boilerplate?color=FD5EBE">
 
-First, run the development server:
+  <img alt="Badge mostrando a quantidade de linguagens no projeto" src="https://img.shields.io/github/languages/count/maurodesouza/next-boilerplate?color=FD5EBE">
+
+  <img alt="Badge mostrando o tamanho do repositório" src="https://img.shields.io/github/repo-size/maurodesouza/next-boilerplate?color=FD5EBE">
+
+  <img alt="Badge mostrando quando foi feito o ultimo commit" src="https://img.shields.io/github/last-commit/maurodesouza/next-boilerplate?color=FD5EBE">
+
+  <img alt="Badge mostrando o status da ci" src="https://github.com/maurodesouza/next-boilerplate/workflows/ci/badge.svg">
+
+</p>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-pré-requisitos">Prerequisites</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Starting</a> &#xa0; | &#xa0;
+  <a href="#video_game-comandos">Commands</a>
+</p>
+
+## :rocket: Tecnologias
+
+<a href="https://nextjs.org">
+  <img width="50" title="Next" alt="Logo do Next" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/next-dot-js.svg">
+</a> &#xa0; &#xa0;
+
+<a href="https://www.typescriptlang.org">
+  <img width="50" title="Typescript" alt="Logo do Typescript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
+</a> &#xa0; &#xa0;
+
+<a href="https://styled-components.com">
+  <img width="50" title="Styled Components" alt="Logo do Styled Components" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/styled-components/styled-components.png">
+</a> &#xa0; &#xa0;
+
+<a href="https://storybook.js.org">
+  <img width="50" title="Storybook" alt="Logo do Storybook" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/storybook/storybook.png">
+</a> &#xa0; &#xa0;
+
+<a href="https://eslint.org">
+  <img  width="50" title="Eslint" alt="Logo do Eslint" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png">
+</a> &#xa0; &#xa0;
+
+<a href="https://prettier.io">
+  <img width="50" title="Prettier" alt="Logo do Prettier" src="https://prettier.io/icon.png">
+</a>
+
+## :white_check_mark: Prerequisite
+
+:checkered_flag: Before starting, you need to have the
+[Node] (https://nodejs.org) installed on your machine.
+
+## :checkered_flag: Getting Started
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Create a project below using this template
+$ yarn create next-app -e https://github.com/maurodesouza/next-boilerplate
+
+# Start the project
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :video_game: Commands
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- `dev`: starts the application on `localhost:3000`
+- `build`: create build for production
+- `start`: start a server with build code
+- `lint`: run eslint on the folder src
+- `storybook`: start a storybook on `localhost:6006`
+- `build-storybook`: create build for storybook
+- `generate`: create a standard structure of a component
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="#top">Back to top</a>
