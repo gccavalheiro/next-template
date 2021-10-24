@@ -20,7 +20,7 @@
   <a href="#video_game-comandos">Commands</a>
 </p>
 
-## :rocket: Tecnologias
+## :rocket: Technologies
 
 <a href="https://nextjs.org">
   <img width="50" title="Next" alt="Logo do Next" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/next-dot-js.svg">
