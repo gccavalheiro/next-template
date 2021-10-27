@@ -1,8 +1,5 @@
 export const parameters = {
   controls: { expanded: true },
-  nextRouter: {
-    Provider: RouterContext.Provider,
-  },
   backgrounds: {
     default: 'very_dark',
     values: [
